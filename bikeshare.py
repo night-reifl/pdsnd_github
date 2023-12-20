@@ -7,7 +7,10 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+<<<<<<< HEAD
 #데이터를 필터링 하는 코드
+=======
+>>>>>>> documentation
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -29,7 +32,10 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
+<<<<<<< HEAD
         #월을 숫자로 바꾸는 코드
+=======
+>>>>>>> documentation
         month_mapping = {
             'january': 1,
             'february': 2,
